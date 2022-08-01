@@ -38,4 +38,28 @@ header{
   font-weight: 200;
   text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
   line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.banner p{
+  font-family: "Josefin Slab",serif;
+  color:#ffffff;
+  font-size: 1.5rem;
+  text-shadow: .2rem .2rem  rgba(0, 0, 0, .4);
+  margin-bottom: 2rem;
+}
+
+.banner button{
+  font-family: "Muli",serif;
+  color:#fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  background: #6a3093;
+  background: -webkit-linear-gradient(to right,#a044ff, #6a3093);
+  background: linear-gradient(to left, #a044ff, #6a3093);
+  padding: 1rem 3rem;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
 }
