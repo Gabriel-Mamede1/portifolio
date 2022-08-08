@@ -171,3 +171,75 @@ header{
   object-fit: cover;
   width: 100%;
 }
+
+.menu{
+  background-color: black;
+  position:fixed;
+  width: 100%;
+  opacity: 100;
+}
+
+.menu .logo{
+  color:#fff;
+  float: left;
+  display: block;
+  padding: 14px 16px;
+}
+
+.menu a{
+  color:#fff;
+  float: right;
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+}
+.projetos{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 20rem;
+  height: 30rem;
+  position:relative;
+}
+.card-img-wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.card-img-wrapper img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: .5rem;
+  opacity: .8;
+
+}
+.card-info h3{
+  font-family:var(--font-action);
+  font-weight: bolder;
+  color:#ff4081;
+}
+
+.card-info p{
+  font-family: var(--font-secundary);
+  color:#eee;
+  font-weight: 400;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.card-info button{
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #6a3093;
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+  font-family: var(--font-action);
+  font-size: 1.5rem;
+  color: #eee;
+  border-radius: .5rem;
+  border:none;
+  box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+}
