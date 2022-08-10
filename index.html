@@ -5,9 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.webmanifest">
   <title>Portifólio</title>
 </head>
 <body>
+
   <div class="container">
     <div class="hamburguer">
       <div class="line" id="line1"></div>
@@ -194,7 +196,7 @@
           <h1>Faça um orçamento</h1>
           <form>
             <label for="qtde">Qtde de Páginas</label>
-            <input type="number" name="qtde" id="qtde">
+            <input type="number" min="1" name="qtde" id="qtde">
             <label for="js">Preciso de um script JS</label>
             <input type="checkbox" name="js" id="js">
             <label>Layout</label>
@@ -210,6 +212,7 @@
             </div>
             <label for="prazo">Prazo</label>
             <input type="range" name="prazo" id="prazo">
+            <label id="preco">R$ 0,00</label>
             <button class="btn btn-orcamento" type="submit">Enviar</button>
           </form>
         </div>
@@ -233,4 +236,5 @@
     <i class="fas fa-arrow-up"></i></a>
   </div>
 </body>
+<script src="script.js"></script>
 </html>
